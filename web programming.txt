@@ -1,0 +1,40 @@
+stopped vid at 56:06
+
+git rules:
+open command using "open git bash"
+each version is saved using a hash, which you can follow
+commands:
+ - git clone "url" = download repository
+ - git add = add a file to the stuff you want it to follow can also add star to add everything
+ - ls = list all files in the git
+ - touch file.type = create new file
+ - git commit -m = save to repository. after m add comment what the change was
+ - git status = lets you know if theres stuff to take from the web or if you added something and didnt commit
+ - git push = push the changes to github
+ - git pull = if someone else made a change, add it
+	if there is a conflict in changes it tells us, marks it. first part is ours, second is theirs
+	we delete what we dont want and save
+ - git log = shows a history of all of the commits made (including message and hash)
+ - git reset --hard hash/origin/master = reset back to that repository (you can still go back to the new one as long as its been saved)
+ -
+
+
+html rules:
+<commandstart>
+</commandend>
+commands:
+ - head (for metadata)
+ - body
+ - h1-h6 = headers of different sizes (1 is largest
+lists:
+ - ol = orderd list (nums)
+ - ul = unordered lists (bullets)
+ - li = list item
+image:
+ - img src="pic.jpg"
+ - height/width="pixels"/"PercentageOfPage"
+tables:
+ - tr = table row
+ - th = table headers
+ - td = table data
+
